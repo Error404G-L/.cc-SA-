@@ -1,6 +1,4 @@
-This shows **ACTIVE / NOT ACTIVE** for you only. Press **Q** or click the indicator to toggle. Executor compatibility is untested; run it once per session.
 
-```lua
 local Players = game:GetService("Players")
 local Input = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
@@ -148,4 +146,3 @@ RunService:BindToRenderStep(
 )
 
 setStatus("Ready. Press Q or click the indicator")
-```
